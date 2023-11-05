@@ -11,8 +11,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   min-height: 100vh;
-  background-color: rgb(188, 222, 230);
-  background-image: url('https://img.freepik.com/premium-photo/background-of-two-abstract-stripes-of-blue-and-yellow-colors-symbolizing-the-flag-of-ukraine_511585-2202.jpg');
+  background-color: #4B0082;
+  background-image: url('https://fon.litrelax.ru/uploads/posts/2023-02/1676787134_foni-club-p-oboi-sovi-na-pk-12.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }

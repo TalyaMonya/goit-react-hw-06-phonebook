@@ -28,4 +28,5 @@ export const Span = styled.span`
     align-items: center;
     gap: 8px;
     margin-left: 8px;
+    color: white;
 `

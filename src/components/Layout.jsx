@@ -27,7 +27,7 @@ export const SubTitle = styled.h2`
 `
 
 export const Empty = styled.p`
-    color: ${p => p.theme.colors.text};
+    color: ${p => p.theme.colors.white};
     font-size: 20px;
     
 `
