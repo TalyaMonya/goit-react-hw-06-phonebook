@@ -19,21 +19,20 @@ const contactsSlice = createSlice({
     initialState: phoneContacts,
     reducers: {
         addContacts: {
-            reducer(state, action) {
+            reducer: (state, action) => {
                 state.items.push(action.payload);
             },
-            prepare(newContact) {
+            prepare: data => {
                 return {
-                    payload: { id: nanoid(), ...newContact },
+                    payload: {
+                        id: nanoid(),
+                        ...data,
+                    },
                 };
             },
         },
-            
-            removeContact(state, action) {
-                const index = state.items.findIndex(
-                    contact => contact.id !== action.payload
-                );
-                state.items.splice(index, 1);
+            removeContact: (state, action) => {
+                state.items = state.items.filter(item => item.id !== action.payload)
             },
          },
 });
